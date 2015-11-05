@@ -1,0 +1,10 @@
+/* DO NOT EDIT CSS */
+
+span {
+  color: orange;
+}
+
+header, footer {
+  margin: 0 auto;
+  width: 50%;
+}

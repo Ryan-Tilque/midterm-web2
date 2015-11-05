@@ -1,0 +1,24 @@
+/* DO NOT EDIT CSS */
+
+h2 {
+  color: orange;
+}
+
+/* Background Images */
+.bg0 {
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png");
+}
+
+.bg1 {
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/pool_table.png");
+}
+
+.bg2 {
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/wood_pattern.png");
+}
+
+
+body {
+  margin: 0 auto;
+  width: 50%;
+}
