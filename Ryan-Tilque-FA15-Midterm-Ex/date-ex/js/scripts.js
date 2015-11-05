@@ -6,6 +6,8 @@ var date = new Date();
 
 $('.todays-date').text(date.toDateString());
 
+$('.year').text(date.getFullYear());
+
 // Construct Date() object for today date & this year
 
 
