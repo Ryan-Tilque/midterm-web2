@@ -6,13 +6,23 @@
 // eval() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
 
 // Generate random number between for three images
+var randBg = 'bg' + Math.floor( Math.random() * 3 );
+
 
 
 
 // Create & Store 3 different greetings. You choose. 
 
 
+var randGreet = 'g' + Math.floor( Math.random() * 3 );
 
+console.log(randGreet)
+
+$('h2').addClass(randGreet)
+
+$('.g0').text('Hello')
+$('.g1').text('Welcome')
+$('.g2').text('Go Away')
 
 // On Page Load insert random greeting
 // NOTE. Wrap/pass the option with eval() method
@@ -21,3 +31,4 @@
 
 // On Page Load add random body class to <body> element
 // See CSS body class `bg0`, `bg1`, `bg2`
+$('body').addClass(randBg)
